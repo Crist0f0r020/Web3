@@ -55,22 +55,68 @@
                 <div class="container">
                     <div class="mb-3">
                         <label class="form-label">Nombre</label>
-                        <input type="text" class="form-control"
-                            placeholder="Ingrese nombre">
+                        <input type="text" class="form-control" placeholder="Ingrese nombre">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Apellido</label>
-                        <input type="text" class="form-control"
-                            placeholder="Ingrese apellido">
+                        <input type="text" class="form-control" placeholder="Ingrese apellido">
                     </div>
+                    <div class="mb-3">
+                        <label class="form-label">Numero </label>
+                        <input type="number" class="form-control" placeholder="+56 9 1234 5678">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Nombre Mascota </label>
+                        <input type="text" class="form-control" placeholder="Ingrese el nombre de su mascota">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Edad de la mascota</label>
+                        <input type="number" class="form-control" placeholder="Ingrese el edad de su mascota">
+                    </div>
+
                     <div class="mb-3">
                         <label class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control"
-                            placeholder="Ingrese correo">
+                        <input type="email" class="form-control" placeholder="Ingrese correo">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <label class="form-label"> comunas </label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Comunas</option>
+                            <option value="1">Santiago Centro</option>
+                            <option value="2">Maipu</option>
+                            <option value="3">Quilicura</option>
+                            <option value="4">Nuñoa</option>
+                            <option value="5">Puente Alto</option>
+                            <option value="6">Providencia</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label"> Genero de la mascota</label>
+                        <div class="row">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Masculino
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Femenino
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                        <input class="btn btn-danger" type="reset" value="Limpiar">
                     </div>
 
                 </div>
